@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*body, nav, div {
+    border: 1px solid black;
+}*/
+
+body, input, button {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+body {
+    padding: 10px;
+    margin-top: 10px
+    text-align: center;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 15fr;
+}
+
+.common-text {
+    padding: 5px;
+    margin: 0 5px;
+    color: #202124;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 15fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    text-align: left;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+.img-link {
+    text-align: center;
+}
+
+.img-link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#dots {
+        
+}
+
