@@ -38,7 +38,14 @@ nav {
     text-align: left;
 }
 
+.text-link{
+    display: block;
+    text-align: center;
+    margin-top: 0.4em;
+}
+
 .text-link:hover {
+    cursor: pointer;
     text-decoration: underline;
 }
 
@@ -46,12 +53,119 @@ nav {
     text-align: center;
 }
 
-.img-link:hover {
-    color: blue;
-    text-decoration: underline;
-}
-
 #dots {
-        
+    align-content: center;
+    justify-content: center;
 }
 
+#dots-menu {
+        border: 2px solid white;
+        margin-top: 0.1em;;
+        border-radius: 50%;
+        height: 1.5em;
+        width: 1.5em;
+        padding: 2px;
+}
+
+#dots-menu:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    border: 2px solid lightgray;
+}
+
+#bio-img {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 1.8em;
+    width: 1.8em;
+}
+
+#bio-img:hover {
+    cursor: pointer;
+    border: 2px solid lightgray;
+}
+
+main {
+    display: block;
+    margin-top: 5em;
+    text-align: center;
+}
+
+#banner img {
+    height: 11em;
+    width: auto;
+}
+
+#banner {
+    padding-bottom: 1em;
+}
+
+#main-search {
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+}
+#search-tools {
+    display:block;
+}
+
+#search-field {
+    width: 100%;
+    height: 2.7em;
+    display: grid;
+    grid-template-columns: 1fr 9fr 1fr;
+    align-content:stretch;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    background: transparent;
+    margin-bottom: 1em;
+}
+
+#search-field:hover {
+        box-shadow: 2px 2px lightgray;
+}
+
+#search-field input {
+    width: 100%;
+    height: 100%;
+    border: transparent;
+    background: transparent;
+}
+
+#search-buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    padding: 10px;
+    margin: 4px;
+}
+
+#search-buttons button:hover {
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
+
+#language-option {
+    margin-top: 2em;
+}
+
+footer div {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #f8f9fa;
+    border: 1px solid lightgray;
+}
+
+/* the above property is impacting the width of the #bottom footer div elements also*/
+
+#bottom-footer {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 2fr 2fr;
+}
+
+#bottom-footer div {
+    text-align: center;
+    border: 1px solid black;
+}
