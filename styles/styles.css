@@ -150,15 +150,20 @@ main {
     margin-top: 2em;
 }
 
-footer div {
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#top-footer, #bottom-footer {
     display: block;
     width: 100%;
-    padding: 12px;
+    padding: 12px 0px 12px 0px;
     background-color: #f8f9fa;
     border: 1px solid lightgray;
 }
-
-/* the above property is impacting the width of the #bottom footer div elements also*/
 
 #bottom-footer {
     display: grid;
@@ -167,5 +172,10 @@ footer div {
 
 #bottom-footer div {
     text-align: center;
-    border: 1px solid black;
 }
+
+#bottom-left, #bottom-right {
+    display: flex;
+    justify-content: space-around;
+}
+
